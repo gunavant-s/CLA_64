@@ -12,7 +12,7 @@ module tb_CLA();
   wire cout;
 
   // Instantiate the nbitksa module
-  carry_look_ahead_64bit dut (
+  cla_64bit dut (
     .a(a),
     .b(b),
     .cin(cin),
